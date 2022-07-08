@@ -8,6 +8,10 @@
       {
         "source": "payload",
         "name": "repository.url"
+      },
+      {
+        "source": "payload",
+        "name": "repository.links.html.href"
       }
     ],
     "pass-environment-to-command": [
@@ -15,7 +19,7 @@
         "source": "url",
         "name": "secret",
         "envname": "REQUEST_PUSH_SECRET"
-      }
+      },
     ]
   },
   {

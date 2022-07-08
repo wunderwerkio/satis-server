@@ -64,5 +64,5 @@ scw_satis_verify_repository_exists() {
     fi
 }
 scw_wait() {
-    /satis-server/bin/ts -nf $*
+    ts -nf $*
 }
